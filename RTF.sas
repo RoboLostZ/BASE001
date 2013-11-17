@@ -109,7 +109,7 @@ length DocumentName $200;
 
 /* {\field{\*\fldinst HYPERLINK "http://www.google.com/"}{\fldrslt http://www.google.com}} 
    {\field{\*\fldinst{HYPERLINK "http://www.google.com"}}{\fldrslt{\ul\cf1 http://www.google.com}}} */ 
- DocumentName = '{\field\*{\*\fldinst\*HYPERLINK\*"D:\\\\cd3_dev\\\\DXD_Loop\\\\blankcrf.pdf"}{\fldrslt\*{\cs15\cf2\ul blankcrf.pdf}}}';
+ DocumentName = '{\field\*{\*\fldinst\*HYPERLINK\*"D:\\\\sponsor\\\\DXD_Loop\\\\blankcrf.pdf"}{\fldrslt\*{\cs15\cf2\ul blankcrf.pdf}}}';
 run;
 
 proc report data = CRF nowd; 
