@@ -57,7 +57,7 @@ run;
 options mprint mlogic symbolgen orientation=landscape;
 ods escapechar='^';
 ods listing close;
-ods rtf file="D:\cd3_dev\NHP_ASA_001_CRTDDS\define.rtf" startpage=no  style=RtfMod;
+ods rtf file="D:\sponsor\study_CRTDDS\define.rtf" startpage=no  style=RtfMod;
 %let line=^R/RTF'\brdrb\brdrs\brdrw10\brsp20';			/* add a line */ 
 %let head1=^R/RTF'\s1\fs26\b\qc ';                      /* Style 1, size=13pt, bold, center */ 
 %let head2=^R/RTF'\s2\fs24\b\qc '; 						/* Style 2, size=12pt, bold, center */ 
